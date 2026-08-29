@@ -64,22 +64,34 @@ function LocationsPage() {
               <span className="text-brand-yellow">More cravings.</span>
             </h2>
             <p className="mt-5 max-w-md leading-relaxed opacity-80">
-              We only list counters we actually run. Vadodara is home — Surat and Ahmedabad are
-              next on the map.
+              We only list counters we actually run. Vadodara is home — Surat and Ahmedabad are next
+              on the map.
             </p>
             <ul className="mt-8 space-y-3 font-display tracking-widest uppercase">
               {locations.map((loc) => (
-                <li key={loc.name} className="flex items-center gap-3">
+                <li key={loc.name} className="flex flex-wrap items-center gap-3">
                   <MapPin className="size-4 text-brand-yellow" aria-hidden="true" />
-                  {loc.name}
+                  <span>{loc.name}</span>
+                  <span className="rounded-full bg-brand-yellow px-3 py-1 text-xs text-charcoal">
+                    Available
+                  </span>
                 </li>
               ))}
-              <li className="flex items-center gap-3 opacity-60">
-                <MapPin className="size-4" aria-hidden="true" /> Surat — Coming Soon
+              <li className="flex flex-wrap items-center gap-3 opacity-60">
+                <MapPin className="size-4" aria-hidden="true" />
+                <span>Surat</span>
+                <span className="rounded-full border border-on-dark/50 px-3 py-1 text-xs">
+                  Coming Soon
+                </span>
               </li>
-              <li className="flex items-center gap-3 opacity-60">
-                <MapPin className="size-4" aria-hidden="true" /> Ahmedabad — Coming Soon
+              <li className="flex flex-wrap items-center gap-3 opacity-60">
+                <MapPin className="size-4" aria-hidden="true" />
+                <span>Ahmedabad</span>
+                <span className="rounded-full border border-on-dark/50 px-3 py-1 text-xs">
+                  Coming Soon
+                </span>
               </li>
+              <li className="pt-2 text-sm text-brand-yellow">More cities coming soon</li>
             </ul>
           </Reveal>
           <Reveal delay={120}>
@@ -99,9 +111,7 @@ function LocationsPage() {
           <h2 className="display-tight text-[clamp(2.25rem,7vw,4.5rem)]">
             Don&rsquo;t see your city?
           </h2>
-          <p className="mt-4 text-lg opacity-90">
-            Maybe you should bring the craving there.
-          </p>
+          <p className="mt-4 text-lg opacity-90">Maybe you should bring the craving there.</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button asChild variant="cream" size="pillLg">
               <Link to="/franchise">Franchise With Us</Link>

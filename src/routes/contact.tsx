@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { MapPin, Phone, Clock } from "lucide-react";
-import { brand } from "@/lib/brand";
+import { brand, whatsappLink } from "@/lib/brand";
 import { Eyebrow } from "@/components/site/SectionHeader";
 import { Reveal } from "@/components/site/Reveal";
 import { Button } from "@/components/ui/button";
@@ -36,6 +36,22 @@ function ContactPage() {
 
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    const name = data.get("name")?.toString().trim();
+    const phone = data.get("phone")?.toString().trim();
+    const subject = data.get("subject")?.toString().trim();
+    const message = data.get("message")?.toString().trim();
+    const text = [
+      "Hello Bread Pakodawala, I would like to contact you.",
+      name ? `Name: ${name}` : "",
+      phone ? `Phone: ${phone}` : "",
+      subject ? `Subject: ${subject}` : "",
+      message ? `Message: ${message}` : "",
+    ]
+      .filter(Boolean)
+      .join("\n");
+
+    window.open(whatsappLink(text), "_blank", "noopener,noreferrer");
     setSent(true);
   };
 
@@ -57,29 +73,35 @@ function ContactPage() {
       <section className="bg-cream px-4 pb-24 md:px-8">
         <div className="mx-auto grid max-w-[90rem] gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <Reveal>
-            <div className="grain h-full rounded-3xl bg-charcoal p-8 text-on-dark md:p-10">
-              <h2 className="display-tight text-3xl text-brand-yellow">Come over</h2>
-              <ul className="mt-6 space-y-5 text-sm">
-                <li className="flex gap-3">
-                  <MapPin className="mt-0.5 size-4 shrink-0 text-brand-yellow" aria-hidden="true" />
-                  <span className="opacity-85">{brand.address}</span>
+            <div className="grain h-full rounded-3xl bg-charcoal p-6 text-on-dark shadow-lift sm:p-8 md:p-10">
+              <h2 className="display-tight text-[clamp(2.75rem,12vw,5rem)] text-brand-yellow">
+                Visit Us
+              </h2>
+              <ul className="mt-7 space-y-5 text-base">
+                <li className="flex min-w-0 gap-3">
+                  <MapPin className="mt-1 size-5 shrink-0 text-brand-yellow" aria-hidden="true" />
+                  <span className="min-w-0 leading-relaxed opacity-90">
+                    Jalaram Nasta House, Chokhandi,
+                    <br />
+                    Vadodara, Gujarat
+                  </span>
                 </li>
-                <li className="flex gap-3">
-                  <Phone className="mt-0.5 size-4 shrink-0 text-brand-yellow" aria-hidden="true" />
-                  <a href={brand.phoneHref} className="opacity-85 hover:text-brand-yellow">
+                <li className="flex min-w-0 gap-3">
+                  <Phone className="mt-1 size-5 shrink-0 text-brand-yellow" aria-hidden="true" />
+                  <a href={brand.phoneHref} className="min-w-0 opacity-90 hover:text-brand-yellow">
                     {brand.phoneDisplay}
                   </a>
                 </li>
-                <li className="flex gap-3">
-                  <Clock className="mt-0.5 size-4 shrink-0 text-brand-yellow" aria-hidden="true" />
-                  <span className="opacity-85">{brand.hours}</span>
+                <li className="flex min-w-0 gap-3">
+                  <Clock className="mt-1 size-5 shrink-0 text-brand-yellow" aria-hidden="true" />
+                  <span className="min-w-0 opacity-90">{brand.hours}</span>
                 </li>
               </ul>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <Button asChild variant="yellow" size="pill">
+              <div className="mt-8 grid gap-3 sm:flex sm:flex-wrap">
+                <Button asChild variant="yellow" size="pill" className="w-full sm:w-auto">
                   <a href={brand.phoneHref}>Call Now</a>
                 </Button>
-                <Button asChild variant="outlineDark" size="pill">
+                <Button asChild variant="outlineDark" size="pill" className="w-full sm:w-auto">
                   <a href={brand.mapsUrl} target="_blank" rel="noreferrer noopener">
                     Get Directions
                   </a>
@@ -91,7 +113,7 @@ function ContactPage() {
           <Reveal delay={100}>
             <form
               onSubmit={onSubmit}
-              className="rounded-3xl border-2 border-charcoal/10 bg-card p-8 md:p-10"
+              className="rounded-3xl border-2 border-charcoal/10 bg-card p-6 sm:p-8 md:p-10"
             >
               <h2 className="display-tight text-3xl">Send a message</h2>
               <div className="mt-6 grid gap-5 sm:grid-cols-2">
@@ -117,21 +139,13 @@ function ContactPage() {
                 </div>
               </div>
               <div className="mt-6 flex flex-wrap items-center gap-4">
-                <Button type="submit" variant="order" size="pillLg">
-                  Send Message
+                <Button type="submit" variant="order" size="pillLg" className="w-full sm:w-auto">
+                  Send on WhatsApp
                 </Button>
-                <p className="text-xs leading-relaxed opacity-60">
-                  This form isn&rsquo;t connected to a mailbox yet — please call or WhatsApp us for
-                  a quick reply.
-                </p>
               </div>
               {sent ? (
                 <p className="mt-5 rounded-2xl bg-brand-yellow/40 p-4 text-sm">
-                  Thanks! Nothing was sent — reach us on{" "}
-                  <a href={brand.phoneHref} className="font-semibold underline">
-                    {brand.phoneDisplay}
-                  </a>
-                  .
+                  Thanks! We opened WhatsApp so our team can reply quickly.
                 </p>
               ) : null}
             </form>

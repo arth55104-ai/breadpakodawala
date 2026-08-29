@@ -200,6 +200,14 @@
 @layer base {
   * {
     border-color: var(--color-border);
+    min-width: 0;
+  }
+
+  img,
+  video,
+  canvas,
+  svg {
+    max-width: 100%;
   }
 
   html {

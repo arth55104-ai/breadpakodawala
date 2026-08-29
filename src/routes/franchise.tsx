@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { assets, brand, foodImages, franchiseBenefits, franchiseFaqs, franchiseIntro } from "@/lib/brand";
 import { SectionHeader, Eyebrow } from "@/components/site/SectionHeader";
 import { Reveal } from "@/components/site/Reveal";
-import { Sticker } from "@/components/site/Sticker";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -55,19 +54,16 @@ function FranchisePage() {
               </Button>
             </div>
           </div>
-          <Reveal delay={100} className="relative">
+          <Reveal delay={100} className="relative flex justify-center md:justify-end">
             <img
-              src={assets.promo}
-              alt="Bread Pakodawala promotional artwork"
-              loading="lazy"
+              src={assets.franchisemascot}
+              alt="Bread Pakodawala franchise mascot presenting store concept with confident thumbs-up"
+              width={720}
+              height={900}
+              fetchPriority="high"
               decoding="async"
-              className="mx-auto w-full max-w-[24rem] drop-shadow-2xl"
-            />
-            <Sticker
-              src={assets.badgeTasty}
-              alt="Tasty"
-              tilt={-9}
-              className="absolute -bottom-3 left-0 w-20 md:w-28"
+              className="block h-auto w-full max-w-[18rem] sm:max-w-[21rem] md:max-w-[24rem] lg:max-w-[27.5rem] xl:max-w-[29rem] max-h-[430px] sm:max-h-[460px] md:max-h-[470px] lg:max-h-[510px] object-contain object-bottom"
+              style={{ transform: "none" }}
             />
           </Reveal>
         </div>

@@ -23,6 +23,11 @@ import pakodaPieces from "@/assets/pakoda-pieces.png";
 import chilli from "@/assets/chilli.png";
 import skyline from "@/assets/skyline.png";
 import mascot from "@/assets/mascot.png";
+import breadmascot1 from "@/assets/breadmascot1.png";
+import breadmascot2 from "@/assets/breadmascot2.png";
+import breadmascot3 from "@/assets/breadmascot3.png";
+import breadmascot4 from "@/assets/breadmascot4.png";
+import franchisemascot from "@/assets/franchisemascot.png";
 import itemCheeseBurst from "@/assets/item-cheese-burst.png";
 import itemPaneerBhurji from "@/assets/item-paneer-bhurji.png";
 import itemExoticVeggies from "@/assets/item-exotic-veggies.jpg";
@@ -117,7 +122,20 @@ export const assets = {
   chilli,
   skyline,
   mascot,
+  breadmascot1,
+  breadmascot2,
+  breadmascot3,
+  breadmascot4,
+  franchisemascot,
 };
+
+const whatsappNumber = "918128193143";
+
+export function whatsappLink(
+  message = "Hello Bread Pakodawala, I would like to know more about your menu.",
+) {
+  return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+}
 
 export const brand = {
   name: "Bread Pakodawala",
@@ -127,14 +145,14 @@ export const brand = {
   tagline: "Chokhandi ka famous bread pakodawala",
   phoneDisplay: "+91 81281 93143",
   phoneHref: "tel:+918128193143",
-  whatsappHref: "https://wa.me/918128193143",
+  whatsappHref: whatsappLink(),
   address: "Jalaram Nasta House, Chokhandi, Vadodara, Gujarat",
   hours: "Everyday: 8:00 am – 10:00 pm",
   mapsUrl:
-    "https://www.google.com/maps/search/?api=1&query=Jalaram+Nasta+House+Chokhandi+Vadodara",
+    "https://www.google.com/maps/search/?api=1&query=Jalaram+Nasta+House%2C+Chokhandi%2C+Vadodara",
   socials: {
-    facebook: "https://www.facebook.com/",
-    instagram: "https://www.instagram.com/",
+    facebook: "https://www.facebook.com/share/19SuTb6MKu/",
+    instagram: "https://www.instagram.com/bread_pakodawala?igsi=bXF6cHIwZGhqYW91",
   },
 } as const;
 
@@ -183,6 +201,7 @@ export type MenuItem = {
   category: string;
   description: string;
   priceLabel: string;
+  priceOptions?: { label: string; price: string }[];
   image: string;
   featured?: boolean;
   available?: boolean;
@@ -201,7 +220,13 @@ export const menuCategories = [
   { id: "shakes", label: "Shakes" },
 ];
 
-const p = (id: string, name: string, price: string, description: string, extra?: Partial<MenuItem>): MenuItem => ({
+const p = (
+  id: string,
+  name: string,
+  price: string,
+  description: string,
+  extra?: Partial<MenuItem>,
+): MenuItem => ({
   id,
   name,
   category: "pakoda",
@@ -214,51 +239,250 @@ const p = (id: string, name: string, price: string, description: string, extra?:
 
 /** Prices taken from the shop's printed menu board. */
 export const menuItems: MenuItem[] = [
-  p("bread-pakoda", "Bread Pakoda", "Ask in store", "The legendary one. Crispy golden bread pakoda served hot with chutney — the snack that made Chokhandi famous.", { image: assets.pakodaPlate, featured: true }),
-  p("aloo-pakoda", "Aloo Pakoda", "₹30", "Classic potato slices in spiced gram-flour batter, fried to a deep golden crunch.", { image: itemPhotos.alooPakoda }),
-  p("butter-garlic-pakoda", "Butter Garlic Pakoda", "₹40", "Buttery, garlicky and fragrant — a rich twist on the counter favourite.", { image: itemPhotos.butterGarlic }),
-  p("peri-peri-paneer-pakoda", "Peri Peri Paneer Pakoda", "₹50", "Soft paneer with a fiery peri peri kick inside a crisp shell.", { image: itemPhotos.periPeriPakoda }),
+  p(
+    "aloo-pakoda",
+    "Aloo Pakoda",
+    "₹30",
+    "Classic potato slices in spiced gram-flour batter, fried to a deep golden crunch.",
+    { image: itemPhotos.alooPakoda },
+  ),
+  p(
+    "butter-garlic-pakoda",
+    "Butter Garlic Pakoda",
+    "₹40",
+    "Buttery, garlicky and fragrant — a rich twist on the counter favourite.",
+    { image: itemPhotos.butterGarlic },
+  ),
+  p(
+    "peri-peri-paneer-pakoda",
+    "Peri Peri Paneer Pakoda",
+    "₹50",
+    "Soft paneer with a fiery peri peri kick inside a crisp shell.",
+    { image: itemPhotos.periPeriPakoda },
+  ),
 
-  p("tandoori-pakoda", "Tandoori Pakoda", "₹50", "Smoky tandoori masala folded into our signature batter.", { image: itemPhotos.tandoori }),
-  p("exotic-veggies-pakoda", "Exotic Veggies Pakoda", "₹60", "A loaded mix of exotic vegetables, crisped to order.", { image: itemPhotos.exoticVeggies }),
-  p("paneer-bhurji-pakoda", "Paneer Bhurji Pakoda", "₹60", "Masala paneer bhurji stuffed and fried till golden.", { image: itemPhotos.paneerBhurji, featured: true }),
-  p("cheese-burst-pakoda", "Cheese Burst Pakoda", "₹70", "Molten cheese centre, crunchy outside. The one you photograph.", { image: itemPhotos.cheeseBurst, featured: true }),
+  p(
+    "tandoori-pakoda",
+    "Tandoori Pakoda",
+    "₹50",
+    "Smoky tandoori masala folded into our signature batter.",
+    { image: itemPhotos.tandoori },
+  ),
+  p(
+    "exotic-veggies-pakoda",
+    "Exotic Veggies Pakoda",
+    "₹60",
+    "A loaded mix of exotic vegetables, crisped to order.",
+    { image: itemPhotos.exoticVeggies },
+  ),
+  p(
+    "paneer-bhurji-pakoda",
+    "Paneer Bhurji Pakoda",
+    "₹60",
+    "Masala paneer bhurji stuffed and fried till golden.",
+    { image: itemPhotos.paneerBhurji, featured: true },
+  ),
+  p(
+    "cheese-burst-pakoda",
+    "Cheese Burst Pakoda",
+    "₹70",
+    "Molten cheese centre, crunchy outside. The one you photograph.",
+    { image: itemPhotos.cheeseBurst, featured: true },
+  ),
 
-  p("dalwada", "Dalwada", "₹40 / 100g", "Vadodara's beloved lentil fritters — crisp outside, soft within.", { category: "bhajiya", image: itemPhotos.dalwada }),
-  p("methi-gota", "Methi Gota", "Ask in store", "Fenugreek-spiked Gujarati gota, fried fresh through the day.", { category: "bhajiya", image: itemPhotos.methiGota }),
-  p("bataka-na-bhajiya", "Bataka Na Bhajiya", "Ask in store", "Thin potato rounds in a light besan batter.", { category: "bhajiya", image: itemPhotos.batakaBhajiya }),
-  p("marcha-na-bhajiya", "Marcha Na Bhajiya", "Ask in store", "Whole chillies battered and fried — for the brave.", { category: "bhajiya", image: itemPhotos.mirchiBhajiya }),
+  p(
+    "dalwada",
+    "Dalwada",
+    "₹100 / 100g",
+    "Vadodara's beloved lentil fritters — crisp outside, soft within.",
+    { category: "bhajiya", image: itemPhotos.dalwada },
+  ),
+  p(
+    "methi-gota",
+    "Methi Gota",
+    "₹40",
+    "Fenugreek-spiked Gujarati gota, fried fresh through the day.",
+    { category: "bhajiya", image: itemPhotos.methiGota },
+  ),
+  p(
+    "bataka-na-bhajiya",
+    "Bataka Na Bhajiya",
+    "₹40",
+    "Thin potato rounds in a light besan batter.",
+    { category: "bhajiya", image: itemPhotos.batakaBhajiya },
+  ),
+  p(
+    "marcha-na-bhajiya",
+    "Marcha Na Bhajiya",
+    "₹40",
+    "Whole chillies battered and fried — for the brave.",
+    { category: "bhajiya", image: itemPhotos.mirchiBhajiya },
+  ),
 
-  p("mumbaiya-vadapav", "Mumbaiya Vadapav", "₹20", "The straight-up Mumbai classic with dry garlic chutney.", { category: "vadapav", image: itemPhotos.mumbaiVadapav }),
-  p("butter-vadapav", "Butter Vadapav", "₹25", "Pav toasted in butter, vada hot off the kadhai.", { category: "vadapav", image: itemPhotos.mumbaiVadapav }),
+  p(
+    "mumbaya-vadapav",
+    "Mumbaya Vadapav",
+    "₹20",
+    "The straight-up Mumbai classic with dry garlic chutney.",
+    { category: "vadapav", image: itemPhotos.mumbaiVadapav },
+  ),
+  p("butter-vadapav", "Butter Vadapav", "₹25", "Pav toasted in butter, vada hot off the kadhai.", {
+    category: "vadapav",
+    image: itemPhotos.mumbaiVadapav,
+  }),
 
-  p("masala-vadapav", "Masala Vadapav", "₹35", "Loaded with house masala and chutneys.", { category: "vadapav", image: itemPhotos.masalaVadapav }),
-  p("cheese-butter-vadapav", "Cheese Butter Vadapav", "₹40", "Butter, cheese, vada. No further questions.", { category: "vadapav", image: itemPhotos.cheeseVadapav, featured: true }),
+  p("masala-vadapav", "Masala Vadapav", "₹35", "Loaded with house masala and chutneys.", {
+    category: "vadapav",
+    image: itemPhotos.masalaVadapav,
+  }),
+  p(
+    "cheese-butter-vadapav",
+    "Cheese Butter Vadapav",
+    "₹40",
+    "Butter, cheese, vada. No further questions.",
+    { category: "vadapav", image: itemPhotos.cheeseVadapav, featured: true },
+  ),
 
-  p("butter-milk", "Butter Milk", "₹20", "Chilled, lightly spiced chaas to cool the spice down.", { category: "mojito", image: itemPhotos.buttermilk }),
-  p("classic-mojito", "Classic Mojito", "₹70", "Lime, mint and fizz over ice.", { category: "mojito", image: itemPhotos.classicMojito }),
-  p("watermelon-mojito", "Watermelon Mojito", "₹70", "Fresh watermelon, mint and lime.", { category: "mojito", image: itemPhotos.watermelonMojito }),
-  p("cold-cocoa", "Cold Cocoa With Ice Cream", "₹80", "Thick cold cocoa topped with a scoop of ice cream.", { category: "mojito", image: itemPhotos.coldCocoa }),
+  p("butter-milk", "Butter Milk", "₹20", "Chilled, lightly spiced chaas to cool the spice down.", {
+    category: "mojito",
+    image: itemPhotos.buttermilk,
+  }),
+  p("classic-mojito", "Classic Mojito", "₹70", "Lime, mint and fizz over ice.", {
+    category: "mojito",
+    image: itemPhotos.classicMojito,
+  }),
+  p("watermelon-mojito", "Watermelon Mojito", "₹70", "Fresh watermelon, mint and lime.", {
+    category: "mojito",
+    image: itemPhotos.watermelonMojito,
+  }),
+  p(
+    "cold-cocoa",
+    "Cold Cocoa With Ice Cream",
+    "₹80",
+    "Thick cold cocoa topped with a scoop of ice cream.",
+    { category: "mojito", image: itemPhotos.coldCocoa },
+  ),
 
-  p("veg-sandwich", "Veg Sandwich", "₹80 (2 slice) · ₹100 (3 slice)", "Fresh veggies and chutney between soft slices.", { category: "sandwich", image: itemPhotos.vegSandwich }),
-  p("aloo-cheese-grill", "Aloo Cheese Grill", "₹90 (2 slice) · ₹120 (3 slice)", "Spiced aloo and cheese, grilled till crisp.", { category: "sandwich", image: itemPhotos.alooCheeseGrill }),
-  p("paneer-bhurji-grill", "Paneer Bhurji Grill", "₹90 (2 slice) · ₹120 (3 slice)", "Masala paneer bhurji, grilled hot.", { category: "sandwich", image: itemPhotos.paneerBhurjiGrill }),
-  p("mexicen-cheese-grill", "Mexicen Cheese Grill", "₹90 (2 slice) · ₹120 (3 slice)", "Mexican-style spiced filling with plenty of cheese.", { category: "sandwich", image: itemPhotos.mexicanGrill }),
+  p(
+    "veg-sandwich",
+    "Veg Sandwich",
+    "2 Slice ₹80 · 3 Slice ₹100",
+    "Fresh veggies and chutney between soft slices.",
+    {
+      category: "sandwich",
+      image: itemPhotos.vegSandwich,
+      priceOptions: [
+        { label: "2 Slice", price: "₹80" },
+        { label: "3 Slice", price: "₹100" },
+      ],
+    },
+  ),
+  p(
+    "aloo-cheese-grill",
+    "Aloo Cheese Grill",
+    "2 Slice ₹90 · 3 Slice ₹120",
+    "Spiced aloo and cheese, grilled till crisp.",
+    {
+      category: "sandwich",
+      image: itemPhotos.alooCheeseGrill,
+      priceOptions: [
+        { label: "2 Slice", price: "₹90" },
+        { label: "3 Slice", price: "₹120" },
+      ],
+    },
+  ),
+  p(
+    "paneer-bhurji-grill",
+    "Paneer Bhurji Grill",
+    "2 Slice ₹90 · 3 Slice ₹120",
+    "Masala paneer bhurji, grilled hot.",
+    {
+      category: "sandwich",
+      image: itemPhotos.paneerBhurjiGrill,
+      priceOptions: [
+        { label: "2 Slice", price: "₹90" },
+        { label: "3 Slice", price: "₹120" },
+      ],
+    },
+  ),
+  p(
+    "mexicen-cheese-grill",
+    "Mexicen Cheese Grill",
+    "2 Slice ₹90 · 3 Slice ₹120",
+    "Mexican-style spiced filling with plenty of cheese.",
+    {
+      category: "sandwich",
+      image: itemPhotos.mexicanGrill,
+      priceOptions: [
+        { label: "2 Slice", price: "₹90" },
+        { label: "3 Slice", price: "₹120" },
+      ],
+    },
+  ),
 
-  p("salted-french-fries", "Salted French Fries", "₹60 regular · ₹70 cheese", "Hot, salted and crisp. Add cheese if you must (you must).", { category: "fries", image: itemPhotos.frenchFries }),
-  p("peri-peri-french-fries", "Peri Peri French Fries", "₹70 regular · ₹80 cheese", "Tossed in peri peri masala.", { category: "fries", image: itemPhotos.periPeriFries }),
+  p(
+    "salted-french-fries",
+    "Salted French Fries",
+    "Regular ₹60 · Cheese ₹70",
+    "Hot, salted and crisp. Add cheese if you must (you must).",
+    {
+      category: "fries",
+      image: itemPhotos.frenchFries,
+      priceOptions: [
+        { label: "Regular", price: "₹60" },
+        { label: "Cheese", price: "₹70" },
+      ],
+    },
+  ),
+  p(
+    "peri-peri-french-fries",
+    "Peri Peri French Fries",
+    "Regular ₹70 · Cheese ₹80",
+    "Tossed in peri peri masala.",
+    {
+      category: "fries",
+      image: itemPhotos.periPeriFries,
+      priceOptions: [
+        { label: "Regular", price: "₹70" },
+        { label: "Cheese", price: "₹80" },
+      ],
+    },
+  ),
 
-  p("ice-tea", "Ice Tea", "₹60", "Chilled iced tea over plenty of ice.", { category: "beverages", image: itemPhotos.iceTea }),
-  p("lemon-ice-tea", "Lemon Ice Tea", "₹60", "Zesty lemon iced tea.", { category: "beverages", image: itemPhotos.lemonIceTea }),
-  p("peach-ice-tea", "Peach Ice Tea", "₹60", "Sweet peach iced tea.", { category: "beverages", image: itemPhotos.peachIceTea }),
-  p("guava-ice-tea", "Guava Ice Tea", "₹60", "Guava iced tea with a desi twist.", { category: "beverages", image: itemPhotos.guavaIceTea }),
+  p("ice-tea", "Ice Tea", "₹60", "Chilled iced tea over plenty of ice.", {
+    category: "beverages",
+    image: itemPhotos.iceTea,
+  }),
+  p("lemon-ice-tea", "Lemon Ice Tea", "₹60", "Zesty lemon iced tea.", {
+    category: "beverages",
+    image: itemPhotos.lemonIceTea,
+  }),
+  p("peach-ice-tea", "Peach Ice Tea", "₹60", "Sweet peach iced tea.", {
+    category: "beverages",
+    image: itemPhotos.peachIceTea,
+  }),
+  p("guava-ice-tea", "Guava Ice Tea", "₹60", "Guava iced tea with a desi twist.", {
+    category: "beverages",
+    image: itemPhotos.guavaIceTea,
+  }),
 
-  p("chocolate-chips-shake", "Chocolate Chips", "₹80", "Thick chocolate chip shake.", { category: "shakes", image: itemPhotos.chocolateChips }),
-  p("french-vanilla-shake", "French Vanilla", "₹80", "Creamy French vanilla shake.", { category: "shakes", image: itemPhotos.frenchVanilla }),
-  p("strawberry-shake", "Strawberry", "₹80", "Fresh, fruity strawberry shake.", { category: "shakes", image: itemPhotos.strawberry }),
-  p("cold-coffee", "Cold Coffee", "₹80", "Chilled, frothy cold coffee.", { category: "shakes", image: itemPhotos.coldCoffee }),
+  p("chocolate-chips-shake", "Chocolate Chips", "₹80", "Thick chocolate chip shake.", {
+    category: "shakes",
+    image: itemPhotos.chocolateChips,
+  }),
+  p("french-vanilla-shake", "French Vanilla", "₹80", "Creamy French vanilla shake.", {
+    category: "shakes",
+    image: itemPhotos.frenchVanilla,
+  }),
+  p("strawberry-shake", "Strawberry", "₹80", "Fresh, fruity strawberry shake.", {
+    category: "shakes",
+    image: itemPhotos.strawberry,
+  }),
+  p("cold-coffee", "Cold Coffee", "₹80", "Chilled, frothy cold coffee.", {
+    category: "shakes",
+    image: itemPhotos.coldCoffee,
+  }),
 ];
-
 
 export const story = {
   title: "A craving with a story.",

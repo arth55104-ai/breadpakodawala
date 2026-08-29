@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export function Footer() {
   return (
     <footer className="grain bg-charcoal text-on-dark">
-      <div className="mx-auto grid max-w-[90rem] gap-12 px-4 py-16 md:grid-cols-[1.2fr_1fr_1fr] md:px-8">
+      <div className="mx-auto grid max-w-[90rem] gap-9 px-4 py-12 md:grid-cols-[1.2fr_1fr_1fr] md:gap-12 md:px-8 md:py-16">
         <div>
           <img
             src={assets.logo}
@@ -22,18 +22,18 @@ export function Footer() {
               target="_blank"
               rel="noreferrer noopener"
               aria-label="Instagram"
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-on-dark/30 transition-colors hover:bg-brand-yellow hover:text-charcoal"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-on-dark/30 transition-colors hover:bg-brand-yellow hover:text-charcoal focus-visible:ring-2 focus-visible:ring-brand-yellow focus-visible:outline-none"
             >
-              <Instagram aria-hidden="true" />
+              <Instagram className="size-5" aria-hidden="true" />
             </a>
             <a
               href={brand.socials.facebook}
               target="_blank"
               rel="noreferrer noopener"
               aria-label="Facebook"
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-on-dark/30 transition-colors hover:bg-brand-yellow hover:text-charcoal"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-on-dark/30 transition-colors hover:bg-brand-yellow hover:text-charcoal focus-visible:ring-2 focus-visible:ring-brand-yellow focus-visible:outline-none"
             >
-              <Facebook aria-hidden="true" />
+              <Facebook className="size-5" aria-hidden="true" />
             </a>
           </div>
         </div>
@@ -73,7 +73,9 @@ export function Footer() {
             </li>
           </ul>
           <Button asChild variant="yellow" size="pill" className="mt-6">
-            <a href={brand.phoneHref}>Order Now</a>
+            <a href={brand.whatsappHref} target="_blank" rel="noreferrer noopener">
+              Order Now
+            </a>
           </Button>
         </div>
       </div>

@@ -91,7 +91,9 @@ function StoryPage() {
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button asChild variant="order" size="pillLg">
-              <a href={brand.phoneHref}>Order Now</a>
+              <a href={brand.whatsappHref} target="_blank" rel="noreferrer noopener">
+                Order Now
+              </a>
             </Button>
             <Button asChild variant="cream" size="pillLg">
               <Link to="/menu">Explore Menu</Link>

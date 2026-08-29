@@ -125,7 +125,9 @@ function MenuPage() {
         </h2>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Button asChild variant="order" size="pillLg">
-            <a href={brand.phoneHref}>Order Now</a>
+            <a href={brand.whatsappHref} target="_blank" rel="noreferrer noopener">
+              Order Now
+            </a>
           </Button>
           <Button asChild variant="outline" size="pillLg">
             <Link to="/">Back to Home</Link>
