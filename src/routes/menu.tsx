@@ -61,7 +61,7 @@ function MenuPage() {
       <section className="bg-cream px-4 pb-24 md:px-8" aria-label="Menu items">
         <div className="mx-auto max-w-[90rem]">
           <div
-            className="sticky top-[72px] z-30 -mx-4 flex snap-x gap-3 overflow-x-auto bg-cream/95 px-4 py-3 backdrop-blur md:mx-0 md:flex-wrap md:px-0"
+            className="sticky top-[72px] z-30 -mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-6 bg-cream/95 px-6 py-3 backdrop-blur [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:mx-0 md:flex-wrap md:px-0 md:scroll-px-0 md:gap-3"
             role="tablist"
             aria-label="Menu categories"
           >

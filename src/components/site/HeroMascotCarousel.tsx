@@ -39,7 +39,7 @@ export function HeroMascotCarousel() {
   return (
     <div className="relative flex w-full flex-col items-center">
       <div className="relative w-full max-w-[20rem] sm:max-w-[22rem] md:max-w-[28rem] lg:max-w-[31rem] xl:max-w-[33rem]">
-        <div className="relative mx-auto aspect-[4/5] max-h-[26rem] sm:max-h-[28rem] md:max-h-[32rem] lg:max-h-[36rem] w-full overflow-hidden">
+        <div className="relative mx-auto aspect-[4/5] max-h-[20rem] sm:max-h-[22rem] md:max-h-[32rem] lg:max-h-[36rem] w-full overflow-hidden">
           {slides.map((s, i) => {
             const isActive = i === active;
             return (

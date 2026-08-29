@@ -1,0 +1,132 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Bread Pakodawala home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Bread Pakodawala — Jay Jalaram Nasta House, since 1987" [ref=e6]
+      - navigation "Main" [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Menu" [ref=e9] [cursor=pointer]:
+          - /url: /menu
+        - link "Our Story" [ref=e10] [cursor=pointer]:
+          - /url: /our-story
+        - link "Locations" [ref=e11] [cursor=pointer]:
+          - /url: /locations
+        - link "Franchise" [ref=e12] [cursor=pointer]:
+          - /url: /franchise
+        - link "Contact" [ref=e13] [cursor=pointer]:
+          - /url: /contact
+      - link "Order Now" [ref=e15] [cursor=pointer]:
+        - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu.
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e20]: Vadodara
+      - heading "Come get your craving." [level=1] [ref=e22]: Come getyour craving.
+      - paragraph [ref=e23]: One counter, one legendary snack. Walk into Chokhandi or call ahead — it’s fried to order.
+      - img "Yummy"
+    - generic [ref=e25]:
+      - paragraph [ref=e26]: Where are we?
+      - heading "Find your craving." [level=2] [ref=e27]: Find yourcraving.
+      - paragraph [ref=e28]: From Vadodara to more cities — the craving is growing.
+      - generic [ref=e29]:
+        - button "Vadodara Available Explore location" [pressed] [ref=e31] [cursor=pointer]:
+          - generic [ref=e32]: Vadodara
+          - generic [ref=e33]: Available
+          - generic [ref=e35]: Explore location
+        - button "Surat Coming Soon Coming soon" [disabled] [ref=e39]:
+          - generic [ref=e40]: Surat
+          - generic [ref=e41]: Coming Soon
+          - generic [ref=e42]: Coming soon
+        - button "Ahmedabad Coming Soon Coming soon" [disabled] [ref=e46]:
+          - generic [ref=e47]: Ahmedabad
+          - generic [ref=e48]: Coming Soon
+          - generic [ref=e49]: Coming soon
+      - generic [ref=e52]: More cities coming soon
+      - article [ref=e55]:
+        - generic [ref=e56]:
+          - text: Flagship
+          - heading "Jalaram Nasta House — Chokhandi" [level=3] [ref=e57]
+          - list [ref=e58]:
+            - listitem [ref=e59]:
+              - generic [ref=e63]: Chokhandi, Vadodara, Gujarat
+            - listitem [ref=e64]:
+              - link "+91 81281 93143" [ref=e67] [cursor=pointer]:
+                - /url: tel:+918128193143
+            - listitem [ref=e68]:
+              - generic [ref=e72]: "Everyday: 8:00 am – 10:00 pm"
+          - generic [ref=e73]:
+            - link "Call Now" [ref=e74] [cursor=pointer]:
+              - /url: tel:+918128193143
+            - link "Get Directions" [ref=e75] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=Jalaram+Nasta+House%2C+Chokhandi%2C+Vadodara
+        - img "Hot bread pakoda served at Chokhandi, Vadodara" [ref=e76]
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - heading "More cities. More cravings." [level=2] [ref=e80]: More cities.More cravings.
+        - paragraph [ref=e81]: We only list counters we actually run. Vadodara is home — Surat and Ahmedabad are next on the map.
+        - list [ref=e82]:
+          - listitem [ref=e83]:
+            - generic [ref=e87]: Jalaram Nasta House — Chokhandi
+            - generic [ref=e88]: Available
+          - listitem [ref=e89]:
+            - generic [ref=e93]: Surat
+            - generic [ref=e94]: Coming Soon
+          - listitem [ref=e95]:
+            - generic [ref=e99]: Ahmedabad
+            - generic [ref=e100]: Coming Soon
+          - listitem [ref=e101]: More cities coming soon
+      - generic:
+        - img "Bread Pakodawala brand artwork"
+    - generic [ref=e103]:
+      - heading "Don’t see your city?" [level=2] [ref=e104]
+      - paragraph [ref=e105]: Maybe you should bring the craving there.
+      - generic [ref=e106]:
+        - link "Franchise With Us" [ref=e107] [cursor=pointer]:
+          - /url: /franchise
+        - link "Call Now" [ref=e108] [cursor=pointer]:
+          - /url: tel:+918128193143
+  - contentinfo [ref=e109]:
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - img "Bread Pakodawala — Jay Jalaram Nasta House" [ref=e112]
+        - paragraph [ref=e113]: Jay Jalaram Nasta House. Chokhandi ka famous bread pakodawala. Serving Vadodara since 1987.
+        - generic [ref=e114]:
+          - link "Instagram" [ref=e115] [cursor=pointer]:
+            - /url: https://www.instagram.com/bread_pakodawala?igsi=bXF6cHIwZGhqYW91
+          - link "Facebook" [ref=e119] [cursor=pointer]:
+            - /url: https://www.facebook.com/share/19SuTb6MKu/
+      - navigation "Footer" [ref=e122]:
+        - heading "Explore" [level=2] [ref=e123]
+        - list [ref=e124]:
+          - listitem [ref=e125]:
+            - link "Home" [ref=e126] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e127]:
+            - link "Menu" [ref=e128] [cursor=pointer]:
+              - /url: /menu
+          - listitem [ref=e129]:
+            - link "Our Story" [ref=e130] [cursor=pointer]:
+              - /url: /our-story
+          - listitem [ref=e131]:
+            - link "Locations" [ref=e132] [cursor=pointer]:
+              - /url: /locations
+          - listitem [ref=e133]:
+            - link "Franchise" [ref=e134] [cursor=pointer]:
+              - /url: /franchise
+          - listitem [ref=e135]:
+            - link "Contact" [ref=e136] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e137]:
+        - heading "Come Over" [level=2] [ref=e138]
+        - list [ref=e139]:
+          - listitem [ref=e140]:
+            - generic [ref=e144]: Jalaram Nasta House, Chokhandi, Vadodara, Gujarat
+          - listitem [ref=e145]:
+            - link "+91 81281 93143" [ref=e148] [cursor=pointer]:
+              - /url: tel:+918128193143
+          - listitem [ref=e149]:
+            - generic [ref=e153]: "Everyday: 8:00 am – 10:00 pm"
+        - link "Order Now" [ref=e154] [cursor=pointer]:
+          - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu.
+    - generic [ref=e155]: © 2026 Jay Jalaram Nasta House. All rights reserved.

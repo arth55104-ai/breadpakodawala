@@ -1,0 +1,516 @@
+- generic [ref=f1e2]:
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "Bread Pakodawala home" [ref=f1e5] [cursor=pointer]:
+        - /url: /
+        - img "Bread Pakodawala — Jay Jalaram Nasta House, since 1987" [ref=f1e6]
+      - button "Open menu" [ref=f1e8]
+  - main [ref=f1e11]:
+    - generic [ref=f1e14]:
+      - generic [ref=f1e15]: The Pakodawala's Menu
+      - heading "What's your craving?" [level=2] [ref=f1e17]: What's yourcraving?
+      - paragraph [ref=f1e18]: Fried to order, hot off the kadhai — from Chokhandi, Vadodara.
+    - region "Menu items" [ref=f1e19]:
+      - generic [ref=f1e20]:
+        - tablist "Menu categories" [ref=f1e21]:
+          - tab "All" [selected] [ref=f1e22] [cursor=pointer]
+          - tab "Pakoda" [ref=f1e23] [cursor=pointer]
+          - tab "Bhajiya" [ref=f1e24] [cursor=pointer]
+          - tab "Vadapav" [ref=f1e25] [cursor=pointer]
+          - tab "Mojito" [ref=f1e26] [cursor=pointer]
+          - tab "Sandwich" [ref=f1e27] [cursor=pointer]
+          - tab "French Fries" [ref=f1e28] [cursor=pointer]
+          - tab "Beverages" [ref=f1e29] [cursor=pointer]
+          - tab "Shakes" [ref=f1e30] [cursor=pointer]
+        - generic [ref=f1e31]:
+          - article [ref=f1e32]:
+            - generic [ref=f1e33]:
+              - button "View details for Aloo Pakoda" [ref=f1e34] [cursor=pointer]:
+                - img "Aloo Pakoda" [ref=f1e36]
+              - generic [ref=f1e37]:
+                - generic [ref=f1e38]: Pakoda
+                - heading "Aloo Pakoda" [level=3] [ref=f1e39]
+                - paragraph [ref=f1e40]: Classic potato slices in spiced gram-flour batter, fried to a deep golden crunch.
+                - generic [ref=f1e41]:
+                  - generic [ref=f1e42]: ₹30
+                  - link "Order Now" [ref=f1e43] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Aloo%20Pakoda.
+          - article [ref=f1e44]:
+            - generic [ref=f1e45]:
+              - button "View details for Butter Garlic Pakoda" [ref=f1e46] [cursor=pointer]:
+                - img "Butter Garlic Pakoda" [ref=f1e48]
+              - generic [ref=f1e49]:
+                - generic [ref=f1e50]: Pakoda
+                - heading "Butter Garlic Pakoda" [level=3] [ref=f1e51]
+                - paragraph [ref=f1e52]: Buttery, garlicky and fragrant — a rich twist on the counter favourite.
+                - generic [ref=f1e53]:
+                  - generic [ref=f1e54]: ₹40
+                  - link "Order Now" [ref=f1e55] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Butter%20Garlic%20Pakoda.
+          - article [ref=f1e56]:
+            - generic [ref=f1e57]:
+              - button "View details for Peri Peri Paneer Pakoda" [ref=f1e58] [cursor=pointer]:
+                - img "Peri Peri Paneer Pakoda" [ref=f1e60]
+              - generic [ref=f1e61]:
+                - generic [ref=f1e62]: Pakoda
+                - heading "Peri Peri Paneer Pakoda" [level=3] [ref=f1e63]
+                - paragraph [ref=f1e64]: Soft paneer with a fiery peri peri kick inside a crisp shell.
+                - generic [ref=f1e65]:
+                  - generic [ref=f1e66]: ₹50
+                  - link "Order Now" [ref=f1e67] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Peri%20Peri%20Paneer%20Pakoda.
+          - article [ref=f1e68]:
+            - generic [ref=f1e69]:
+              - button "View details for Tandoori Pakoda" [ref=f1e70] [cursor=pointer]:
+                - img "Tandoori Pakoda" [ref=f1e72]
+              - generic [ref=f1e73]:
+                - generic [ref=f1e74]: Pakoda
+                - heading "Tandoori Pakoda" [level=3] [ref=f1e75]
+                - paragraph [ref=f1e76]: Smoky tandoori masala folded into our signature batter.
+                - generic [ref=f1e77]:
+                  - generic [ref=f1e78]: ₹50
+                  - link "Order Now" [ref=f1e79] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Tandoori%20Pakoda.
+          - article [ref=f1e80]:
+            - generic [ref=f1e81]:
+              - button "View details for Exotic Veggies Pakoda" [ref=f1e82] [cursor=pointer]:
+                - img "Exotic Veggies Pakoda" [ref=f1e84]
+              - generic [ref=f1e85]:
+                - generic [ref=f1e86]: Pakoda
+                - heading "Exotic Veggies Pakoda" [level=3] [ref=f1e87]
+                - paragraph [ref=f1e88]: A loaded mix of exotic vegetables, crisped to order.
+                - generic [ref=f1e89]:
+                  - generic [ref=f1e90]: ₹60
+                  - link "Order Now" [ref=f1e91] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Exotic%20Veggies%20Pakoda.
+          - article [ref=f1e92]:
+            - generic [ref=f1e93]:
+              - button "View details for Paneer Bhurji Pakoda" [ref=f1e94] [cursor=pointer]:
+                - img "Paneer Bhurji Pakoda" [ref=f1e96]
+                - generic [ref=f1e97]: Signature
+              - generic [ref=f1e98]:
+                - generic [ref=f1e99]: Pakoda
+                - heading "Paneer Bhurji Pakoda" [level=3] [ref=f1e100]
+                - paragraph [ref=f1e101]: Masala paneer bhurji stuffed and fried till golden.
+                - generic [ref=f1e102]:
+                  - generic [ref=f1e103]: ₹60
+                  - link "Order Now" [ref=f1e104] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Paneer%20Bhurji%20Pakoda.
+          - article [ref=f1e105]:
+            - generic [ref=f1e106]:
+              - button "View details for Cheese Burst Pakoda" [ref=f1e107] [cursor=pointer]:
+                - img "Cheese Burst Pakoda" [ref=f1e109]
+                - generic [ref=f1e110]: Signature
+              - generic [ref=f1e111]:
+                - generic [ref=f1e112]: Pakoda
+                - heading "Cheese Burst Pakoda" [level=3] [ref=f1e113]
+                - paragraph [ref=f1e114]: Molten cheese centre, crunchy outside. The one you photograph.
+                - generic [ref=f1e115]:
+                  - generic [ref=f1e116]: ₹70
+                  - link "Order Now" [ref=f1e117] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Cheese%20Burst%20Pakoda.
+          - article [ref=f1e118]:
+            - generic [ref=f1e119]:
+              - button "View details for Dalwada" [ref=f1e120] [cursor=pointer]:
+                - img "Dalwada" [ref=f1e122]
+              - generic [ref=f1e123]:
+                - generic [ref=f1e124]: Bhajiya
+                - heading "Dalwada" [level=3] [ref=f1e125]
+                - paragraph [ref=f1e126]: Vadodara's beloved lentil fritters — crisp outside, soft within.
+                - generic [ref=f1e127]:
+                  - generic [ref=f1e128]: ₹100 / 100g
+                  - link "Order Now" [ref=f1e129] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Dalwada.
+          - article [ref=f1e130]:
+            - generic [ref=f1e131]:
+              - button "View details for Methi Gota" [ref=f1e132] [cursor=pointer]:
+                - img "Methi Gota" [ref=f1e134]
+              - generic [ref=f1e135]:
+                - generic [ref=f1e136]: Bhajiya
+                - heading "Methi Gota" [level=3] [ref=f1e137]
+                - paragraph [ref=f1e138]: Fenugreek-spiked Gujarati gota, fried fresh through the day.
+                - generic [ref=f1e139]:
+                  - generic [ref=f1e140]: ₹40
+                  - link "Order Now" [ref=f1e141] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Methi%20Gota.
+          - article [ref=f1e142]:
+            - generic [ref=f1e143]:
+              - button "View details for Bataka Na Bhajiya" [ref=f1e144] [cursor=pointer]:
+                - img "Bataka Na Bhajiya" [ref=f1e146]
+              - generic [ref=f1e147]:
+                - generic [ref=f1e148]: Bhajiya
+                - heading "Bataka Na Bhajiya" [level=3] [ref=f1e149]
+                - paragraph [ref=f1e150]: Thin potato rounds in a light besan batter.
+                - generic [ref=f1e151]:
+                  - generic [ref=f1e152]: ₹40
+                  - link "Order Now" [ref=f1e153] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Bataka%20Na%20Bhajiya.
+          - article [ref=f1e154]:
+            - generic [ref=f1e155]:
+              - button "View details for Marcha Na Bhajiya" [ref=f1e156] [cursor=pointer]:
+                - img "Marcha Na Bhajiya" [ref=f1e158]
+              - generic [ref=f1e159]:
+                - generic [ref=f1e160]: Bhajiya
+                - heading "Marcha Na Bhajiya" [level=3] [ref=f1e161]
+                - paragraph [ref=f1e162]: Whole chillies battered and fried — for the brave.
+                - generic [ref=f1e163]:
+                  - generic [ref=f1e164]: ₹40
+                  - link "Order Now" [ref=f1e165] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Marcha%20Na%20Bhajiya.
+          - article [ref=f1e166]:
+            - generic [ref=f1e167]:
+              - button "View details for Mumbaya Vadapav" [ref=f1e168] [cursor=pointer]:
+                - img "Mumbaya Vadapav" [ref=f1e170]
+              - generic [ref=f1e171]:
+                - generic [ref=f1e172]: Vadapav
+                - heading "Mumbaya Vadapav" [level=3] [ref=f1e173]
+                - paragraph [ref=f1e174]: The straight-up Mumbai classic with dry garlic chutney.
+                - generic [ref=f1e175]:
+                  - generic [ref=f1e176]: ₹20
+                  - link "Order Now" [ref=f1e177] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Mumbaya%20Vadapav.
+          - article [ref=f1e178]:
+            - generic [ref=f1e179]:
+              - button "View details for Butter Vadapav" [ref=f1e180] [cursor=pointer]:
+                - img "Butter Vadapav" [ref=f1e182]
+              - generic [ref=f1e183]:
+                - generic [ref=f1e184]: Vadapav
+                - heading "Butter Vadapav" [level=3] [ref=f1e185]
+                - paragraph [ref=f1e186]: Pav toasted in butter, vada hot off the kadhai.
+                - generic [ref=f1e187]:
+                  - generic [ref=f1e188]: ₹25
+                  - link "Order Now" [ref=f1e189] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Butter%20Vadapav.
+          - article [ref=f1e190]:
+            - generic [ref=f1e191]:
+              - button "View details for Masala Vadapav" [ref=f1e192] [cursor=pointer]:
+                - img "Masala Vadapav" [ref=f1e194]
+              - generic [ref=f1e195]:
+                - generic [ref=f1e196]: Vadapav
+                - heading "Masala Vadapav" [level=3] [ref=f1e197]
+                - paragraph [ref=f1e198]: Loaded with house masala and chutneys.
+                - generic [ref=f1e199]:
+                  - generic [ref=f1e200]: ₹35
+                  - link "Order Now" [ref=f1e201] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Masala%20Vadapav.
+          - article [ref=f1e202]:
+            - generic [ref=f1e203]:
+              - button "View details for Cheese Butter Vadapav" [ref=f1e204] [cursor=pointer]:
+                - img "Cheese Butter Vadapav" [ref=f1e206]
+                - generic [ref=f1e207]: Signature
+              - generic [ref=f1e208]:
+                - generic [ref=f1e209]: Vadapav
+                - heading "Cheese Butter Vadapav" [level=3] [ref=f1e210]
+                - paragraph [ref=f1e211]: Butter, cheese, vada. No further questions.
+                - generic [ref=f1e212]:
+                  - generic [ref=f1e213]: ₹40
+                  - link "Order Now" [ref=f1e214] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Cheese%20Butter%20Vadapav.
+          - article [ref=f1e215]:
+            - generic [ref=f1e216]:
+              - button "View details for Butter Milk" [ref=f1e217] [cursor=pointer]:
+                - img "Butter Milk" [ref=f1e219]
+              - generic [ref=f1e220]:
+                - generic [ref=f1e221]: Mojito
+                - heading "Butter Milk" [level=3] [ref=f1e222]
+                - paragraph [ref=f1e223]: Chilled, lightly spiced chaas to cool the spice down.
+                - generic [ref=f1e224]:
+                  - generic [ref=f1e225]: ₹20
+                  - link "Order Now" [ref=f1e226] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Butter%20Milk.
+          - article [ref=f1e227]:
+            - generic [ref=f1e228]:
+              - button "View details for Classic Mojito" [ref=f1e229] [cursor=pointer]:
+                - img "Classic Mojito" [ref=f1e231]
+              - generic [ref=f1e232]:
+                - generic [ref=f1e233]: Mojito
+                - heading "Classic Mojito" [level=3] [ref=f1e234]
+                - paragraph [ref=f1e235]: Lime, mint and fizz over ice.
+                - generic [ref=f1e236]:
+                  - generic [ref=f1e237]: ₹70
+                  - link "Order Now" [ref=f1e238] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Classic%20Mojito.
+          - article [ref=f1e239]:
+            - generic [ref=f1e240]:
+              - button "View details for Watermelon Mojito" [ref=f1e241] [cursor=pointer]:
+                - img "Watermelon Mojito" [ref=f1e243]
+              - generic [ref=f1e244]:
+                - generic [ref=f1e245]: Mojito
+                - heading "Watermelon Mojito" [level=3] [ref=f1e246]
+                - paragraph [ref=f1e247]: Fresh watermelon, mint and lime.
+                - generic [ref=f1e248]:
+                  - generic [ref=f1e249]: ₹70
+                  - link "Order Now" [ref=f1e250] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Watermelon%20Mojito.
+          - article [ref=f1e251]:
+            - generic [ref=f1e252]:
+              - button "View details for Cold Cocoa With Ice Cream" [ref=f1e253] [cursor=pointer]:
+                - img "Cold Cocoa With Ice Cream" [ref=f1e255]
+              - generic [ref=f1e256]:
+                - generic [ref=f1e257]: Mojito
+                - heading "Cold Cocoa With Ice Cream" [level=3] [ref=f1e258]
+                - paragraph [ref=f1e259]: Thick cold cocoa topped with a scoop of ice cream.
+                - generic [ref=f1e260]:
+                  - generic [ref=f1e261]: ₹80
+                  - link "Order Now" [ref=f1e262] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Cold%20Cocoa%20With%20Ice%20Cream.
+          - article [ref=f1e263]:
+            - generic [ref=f1e264]:
+              - button "View details for Veg Sandwich" [ref=f1e265] [cursor=pointer]:
+                - img "Veg Sandwich" [ref=f1e267]
+              - generic [ref=f1e268]:
+                - generic [ref=f1e269]: Sandwich
+                - heading "Veg Sandwich" [level=3] [ref=f1e270]
+                - paragraph [ref=f1e271]: Fresh veggies and chutney between soft slices.
+                - generic [ref=f1e272]:
+                  - generic [ref=f1e273]:
+                    - generic [ref=f1e274]:
+                      - generic [ref=f1e275]: 2 Slice
+                      - generic [ref=f1e276]: ₹80
+                    - generic [ref=f1e277]:
+                      - generic [ref=f1e278]: 3 Slice
+                      - generic [ref=f1e279]: ₹100
+                  - link "Order Now" [ref=f1e280] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Veg%20Sandwich.
+          - article [ref=f1e281]:
+            - generic [ref=f1e282]:
+              - button "View details for Aloo Cheese Grill" [ref=f1e283] [cursor=pointer]:
+                - img "Aloo Cheese Grill" [ref=f1e285]
+              - generic [ref=f1e286]:
+                - generic [ref=f1e287]: Sandwich
+                - heading "Aloo Cheese Grill" [level=3] [ref=f1e288]
+                - paragraph [ref=f1e289]: Spiced aloo and cheese, grilled till crisp.
+                - generic [ref=f1e290]:
+                  - generic [ref=f1e291]:
+                    - generic [ref=f1e292]:
+                      - generic [ref=f1e293]: 2 Slice
+                      - generic [ref=f1e294]: ₹90
+                    - generic [ref=f1e295]:
+                      - generic [ref=f1e296]: 3 Slice
+                      - generic [ref=f1e297]: ₹120
+                  - link "Order Now" [ref=f1e298] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Aloo%20Cheese%20Grill.
+          - article [ref=f1e299]:
+            - generic [ref=f1e300]:
+              - button "View details for Paneer Bhurji Grill" [ref=f1e301] [cursor=pointer]:
+                - img "Paneer Bhurji Grill" [ref=f1e303]
+              - generic [ref=f1e304]:
+                - generic [ref=f1e305]: Sandwich
+                - heading "Paneer Bhurji Grill" [level=3] [ref=f1e306]
+                - paragraph [ref=f1e307]: Masala paneer bhurji, grilled hot.
+                - generic [ref=f1e308]:
+                  - generic [ref=f1e309]:
+                    - generic [ref=f1e310]:
+                      - generic [ref=f1e311]: 2 Slice
+                      - generic [ref=f1e312]: ₹90
+                    - generic [ref=f1e313]:
+                      - generic [ref=f1e314]: 3 Slice
+                      - generic [ref=f1e315]: ₹120
+                  - link "Order Now" [ref=f1e316] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Paneer%20Bhurji%20Grill.
+          - article [ref=f1e317]:
+            - generic [ref=f1e318]:
+              - button "View details for Mexicen Cheese Grill" [ref=f1e319] [cursor=pointer]:
+                - img "Mexicen Cheese Grill" [ref=f1e321]
+              - generic [ref=f1e322]:
+                - generic [ref=f1e323]: Sandwich
+                - heading "Mexicen Cheese Grill" [level=3] [ref=f1e324]
+                - paragraph [ref=f1e325]: Mexican-style spiced filling with plenty of cheese.
+                - generic [ref=f1e326]:
+                  - generic [ref=f1e327]:
+                    - generic [ref=f1e328]:
+                      - generic [ref=f1e329]: 2 Slice
+                      - generic [ref=f1e330]: ₹90
+                    - generic [ref=f1e331]:
+                      - generic [ref=f1e332]: 3 Slice
+                      - generic [ref=f1e333]: ₹120
+                  - link "Order Now" [ref=f1e334] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Mexicen%20Cheese%20Grill.
+          - article [ref=f1e335]:
+            - generic [ref=f1e336]:
+              - button "View details for Salted French Fries" [ref=f1e337] [cursor=pointer]:
+                - img "Salted French Fries" [ref=f1e339]
+              - generic [ref=f1e340]:
+                - generic [ref=f1e341]: French Fries
+                - heading "Salted French Fries" [level=3] [ref=f1e342]
+                - paragraph [ref=f1e343]: Hot, salted and crisp. Add cheese if you must (you must).
+                - generic [ref=f1e344]:
+                  - generic [ref=f1e345]:
+                    - generic [ref=f1e346]:
+                      - generic [ref=f1e347]: Regular
+                      - generic [ref=f1e348]: ₹60
+                    - generic [ref=f1e349]:
+                      - generic [ref=f1e350]: Cheese
+                      - generic [ref=f1e351]: ₹70
+                  - link "Order Now" [ref=f1e352] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Salted%20French%20Fries.
+          - article [ref=f1e353]:
+            - generic [ref=f1e354]:
+              - button "View details for Peri Peri French Fries" [ref=f1e355] [cursor=pointer]:
+                - img "Peri Peri French Fries" [ref=f1e357]
+              - generic [ref=f1e358]:
+                - generic [ref=f1e359]: French Fries
+                - heading "Peri Peri French Fries" [level=3] [ref=f1e360]
+                - paragraph [ref=f1e361]: Tossed in peri peri masala.
+                - generic [ref=f1e362]:
+                  - generic [ref=f1e363]:
+                    - generic [ref=f1e364]:
+                      - generic [ref=f1e365]: Regular
+                      - generic [ref=f1e366]: ₹70
+                    - generic [ref=f1e367]:
+                      - generic [ref=f1e368]: Cheese
+                      - generic [ref=f1e369]: ₹80
+                  - link "Order Now" [ref=f1e370] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Peri%20Peri%20French%20Fries.
+          - article [ref=f1e371]:
+            - generic [ref=f1e372]:
+              - button "View details for Ice Tea" [ref=f1e373] [cursor=pointer]:
+                - img "Ice Tea" [ref=f1e375]
+              - generic [ref=f1e376]:
+                - generic [ref=f1e377]: Beverages
+                - heading "Ice Tea" [level=3] [ref=f1e378]
+                - paragraph [ref=f1e379]: Chilled iced tea over plenty of ice.
+                - generic [ref=f1e380]:
+                  - generic [ref=f1e381]: ₹60
+                  - link "Order Now" [ref=f1e382] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Ice%20Tea.
+          - article [ref=f1e383]:
+            - generic [ref=f1e384]:
+              - button "View details for Lemon Ice Tea" [ref=f1e385] [cursor=pointer]:
+                - img "Lemon Ice Tea" [ref=f1e387]
+              - generic [ref=f1e388]:
+                - generic [ref=f1e389]: Beverages
+                - heading "Lemon Ice Tea" [level=3] [ref=f1e390]
+                - paragraph [ref=f1e391]: Zesty lemon iced tea.
+                - generic [ref=f1e392]:
+                  - generic [ref=f1e393]: ₹60
+                  - link "Order Now" [ref=f1e394] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Lemon%20Ice%20Tea.
+          - article [ref=f1e395]:
+            - generic [ref=f1e396]:
+              - button "View details for Peach Ice Tea" [ref=f1e397] [cursor=pointer]:
+                - img "Peach Ice Tea" [ref=f1e399]
+              - generic [ref=f1e400]:
+                - generic [ref=f1e401]: Beverages
+                - heading "Peach Ice Tea" [level=3] [ref=f1e402]
+                - paragraph [ref=f1e403]: Sweet peach iced tea.
+                - generic [ref=f1e404]:
+                  - generic [ref=f1e405]: ₹60
+                  - link "Order Now" [ref=f1e406] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Peach%20Ice%20Tea.
+          - article [ref=f1e407]:
+            - generic [ref=f1e408]:
+              - button "View details for Guava Ice Tea" [ref=f1e409] [cursor=pointer]:
+                - img "Guava Ice Tea" [ref=f1e411]
+              - generic [ref=f1e412]:
+                - generic [ref=f1e413]: Beverages
+                - heading "Guava Ice Tea" [level=3] [ref=f1e414]
+                - paragraph [ref=f1e415]: Guava iced tea with a desi twist.
+                - generic [ref=f1e416]:
+                  - generic [ref=f1e417]: ₹60
+                  - link "Order Now" [ref=f1e418] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Guava%20Ice%20Tea.
+          - article [ref=f1e419]:
+            - generic [ref=f1e420]:
+              - button "View details for Chocolate Chips" [ref=f1e421] [cursor=pointer]:
+                - img "Chocolate Chips" [ref=f1e423]
+              - generic [ref=f1e424]:
+                - generic [ref=f1e425]: Shakes
+                - heading "Chocolate Chips" [level=3] [ref=f1e426]
+                - paragraph [ref=f1e427]: Thick chocolate chip shake.
+                - generic [ref=f1e428]:
+                  - generic [ref=f1e429]: ₹80
+                  - link "Order Now" [ref=f1e430] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Chocolate%20Chips.
+          - article [ref=f1e431]:
+            - generic [ref=f1e432]:
+              - button "View details for French Vanilla" [ref=f1e433] [cursor=pointer]:
+                - img "French Vanilla" [ref=f1e435]
+              - generic [ref=f1e436]:
+                - generic [ref=f1e437]: Shakes
+                - heading "French Vanilla" [level=3] [ref=f1e438]
+                - paragraph [ref=f1e439]: Creamy French vanilla shake.
+                - generic [ref=f1e440]:
+                  - generic [ref=f1e441]: ₹80
+                  - link "Order Now" [ref=f1e442] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20French%20Vanilla.
+          - article [ref=f1e443]:
+            - generic [ref=f1e444]:
+              - button "View details for Strawberry" [ref=f1e445] [cursor=pointer]:
+                - img "Strawberry" [ref=f1e447]
+              - generic [ref=f1e448]:
+                - generic [ref=f1e449]: Shakes
+                - heading "Strawberry" [level=3] [ref=f1e450]
+                - paragraph [ref=f1e451]: Fresh, fruity strawberry shake.
+                - generic [ref=f1e452]:
+                  - generic [ref=f1e453]: ₹80
+                  - link "Order Now" [ref=f1e454] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Strawberry.
+          - article [ref=f1e455]:
+            - generic [ref=f1e456]:
+              - button "View details for Cold Coffee" [ref=f1e457] [cursor=pointer]:
+                - img "Cold Coffee" [ref=f1e459]
+              - generic [ref=f1e460]:
+                - generic [ref=f1e461]: Shakes
+                - heading "Cold Coffee" [level=3] [ref=f1e462]
+                - paragraph [ref=f1e463]: Chilled, frothy cold coffee.
+                - generic [ref=f1e464]:
+                  - generic [ref=f1e465]: ₹80
+                  - link "Order Now" [ref=f1e466] [cursor=pointer]:
+                    - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20order%20Cold%20Coffee.
+    - generic [ref=f1e468]:
+      - generic [ref=f1e469]:
+        - heading "Made hot. Served crispy." [level=2] [ref=f1e470]: Made hot.Served crispy.
+        - paragraph [ref=f1e471]: Nothing sits under a lamp. Every batch goes into the kadhai when you order it, and comes out golden — the way Chokhandi has eaten it since 1987.
+      - img "Pakoda frying in hot oil" [ref=f1e473]
+    - generic [ref=f1e474]:
+      - heading "Found your craving?" [level=2] [ref=f1e475]
+      - generic [ref=f1e476]:
+        - link "Order Now" [ref=f1e477] [cursor=pointer]:
+          - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu.
+        - link "Back to Home" [ref=f1e478] [cursor=pointer]:
+          - /url: /
+  - contentinfo [ref=f1e479]:
+    - generic [ref=f1e480]:
+      - generic [ref=f1e481]:
+        - img "Bread Pakodawala — Jay Jalaram Nasta House" [ref=f1e482]
+        - paragraph [ref=f1e483]: Jay Jalaram Nasta House. Chokhandi ka famous bread pakodawala. Serving Vadodara since 1987.
+        - generic [ref=f1e484]:
+          - link "Instagram" [ref=f1e485] [cursor=pointer]:
+            - /url: https://www.instagram.com/bread_pakodawala?igsi=bXF6cHIwZGhqYW91
+          - link "Facebook" [ref=f1e489] [cursor=pointer]:
+            - /url: https://www.facebook.com/share/19SuTb6MKu/
+      - navigation "Footer" [ref=f1e492]:
+        - heading "Explore" [level=2] [ref=f1e493]
+        - list [ref=f1e494]:
+          - listitem [ref=f1e495]:
+            - link "Home" [ref=f1e496] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f1e497]:
+            - link "Menu" [ref=f1e498] [cursor=pointer]:
+              - /url: /menu
+          - listitem [ref=f1e499]:
+            - link "Our Story" [ref=f1e500] [cursor=pointer]:
+              - /url: /our-story
+          - listitem [ref=f1e501]:
+            - link "Locations" [ref=f1e502] [cursor=pointer]:
+              - /url: /locations
+          - listitem [ref=f1e503]:
+            - link "Franchise" [ref=f1e504] [cursor=pointer]:
+              - /url: /franchise
+          - listitem [ref=f1e505]:
+            - link "Contact" [ref=f1e506] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f1e507]:
+        - heading "Come Over" [level=2] [ref=f1e508]
+        - list [ref=f1e509]:
+          - listitem [ref=f1e510]:
+            - generic [ref=f1e514]: Jalaram Nasta House, Chokhandi, Vadodara, Gujarat
+          - listitem [ref=f1e515]:
+            - link "+91 81281 93143" [ref=f1e518] [cursor=pointer]:
+              - /url: tel:+918128193143
+          - listitem [ref=f1e519]:
+            - generic [ref=f1e523]: "Everyday: 8:00 am – 10:00 pm"
+        - link "Order Now" [ref=f1e524] [cursor=pointer]:
+          - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu.
+    - generic [ref=f1e525]: © 2026 Jay Jalaram Nasta House. All rights reserved.

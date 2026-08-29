@@ -28,11 +28,11 @@ export function CitySelector() {
           From Vadodara to more cities — the craving is growing.
         </p>
 
-        <div className="mt-10 -mx-4 flex snap-x gap-4 overflow-x-auto px-4 pb-2 sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 lg:grid-cols-3">
+        <div className="mt-10 -mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-6 px-6 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 sm:scroll-px-0 lg:grid-cols-3">
           {cities.map((c, i) => {
             const available = c.status === "available";
             return (
-              <Reveal key={c.id} delay={i * 80} className="w-[76%] shrink-0 snap-start sm:w-auto">
+              <Reveal key={c.id} delay={i * 80} className="w-[min(22rem,calc(100vw-64px))] shrink-0 snap-start sm:w-auto">
                 <button
                   type="button"
                   disabled={!available}

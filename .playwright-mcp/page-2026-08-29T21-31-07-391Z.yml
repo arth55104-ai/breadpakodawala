@@ -1,0 +1,266 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Bread Pakodawala home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Bread Pakodawala — Jay Jalaram Nasta House, since 1987" [ref=e6]
+      - navigation "Main" [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Menu" [ref=e9] [cursor=pointer]:
+          - /url: /menu
+        - link "Our Story" [ref=e10] [cursor=pointer]:
+          - /url: /our-story
+        - link "Locations" [ref=e11] [cursor=pointer]:
+          - /url: /locations
+        - link "Franchise" [ref=e12] [cursor=pointer]:
+          - /url: /franchise
+        - link "Contact" [ref=e13] [cursor=pointer]:
+          - /url: /contact
+      - link "Order Now" [ref=e15] [cursor=pointer]:
+        - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu.
+  - main [ref=e17]:
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - generic [ref=e25]:
+          - img "Bread Pakodawala mascot presenting freshly prepared Bread Pakoda" [ref=e26]
+          - img "Bread Pakodawala mascot preparing fresh Bread Pakoda in a hot kadhai" [ref=e27]
+          - img "Bread Pakodawala mascot welcoming customers with fresh Bread Pakoda" [ref=e28]
+          - img "Bread Pakodawala mascot serving hot chai and crispy Bread Pakoda" [ref=e29]
+        - tablist "Mascot slides" [ref=e30]:
+          - tab "Go to slide 1" [selected] [ref=e31]
+          - tab "Go to slide 2" [ref=e32]
+          - tab "Go to slide 3" [ref=e33]
+          - tab "Go to slide 4" [ref=e34]
+      - generic [ref=e35]:
+        - generic [ref=e36]: Chokhandi, Vadodara · Since 1987
+        - heading "Crispy. Hot. Unforgettable." [level=1] [ref=e38]: Crispy.Hot.Unforgettable.
+        - paragraph [ref=e39]: Vadodara’s legendary Bread Pakoda, serving the craving since 1987.
+        - generic [ref=e40]:
+          - link "Order Now" [ref=e41] [cursor=pointer]:
+            - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu.
+          - link "Explore Menu" [ref=e42] [cursor=pointer]:
+            - /url: /menu
+        - paragraph [ref=e43]: "Everyday: 8:00 am – 10:00 pm"
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: Hot
+            - generic [ref=e49]: ✦
+          - generic [ref=e50]:
+            - generic [ref=e51]: Crispy
+            - generic [ref=e52]: ✦
+          - generic [ref=e53]:
+            - generic [ref=e54]: Spicy
+            - generic [ref=e55]: ✦
+          - generic [ref=e56]:
+            - generic [ref=e57]: Fresh
+            - generic [ref=e58]: ✦
+          - generic [ref=e59]:
+            - generic [ref=e60]: Desi
+            - generic [ref=e61]: ✦
+          - generic [ref=e62]:
+            - generic [ref=e63]: Iconic
+            - generic [ref=e64]: ✦
+          - generic [ref=e65]:
+            - generic [ref=e66]: Vadodara
+            - generic [ref=e67]: ✦
+          - generic [ref=e68]:
+            - generic [ref=e69]: Bread Pakoda
+            - generic [ref=e70]: ✦
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]: Hot
+            - generic [ref=e74]: ✦
+          - generic [ref=e75]:
+            - generic [ref=e76]: Crispy
+            - generic [ref=e77]: ✦
+          - generic [ref=e78]:
+            - generic [ref=e79]: Spicy
+            - generic [ref=e80]: ✦
+          - generic [ref=e81]:
+            - generic [ref=e82]: Fresh
+            - generic [ref=e83]: ✦
+          - generic [ref=e84]:
+            - generic [ref=e85]: Desi
+            - generic [ref=e86]: ✦
+          - generic [ref=e87]:
+            - generic [ref=e88]: Iconic
+            - generic [ref=e89]: ✦
+          - generic [ref=e90]:
+            - generic [ref=e91]: Vadodara
+            - generic [ref=e92]: ✦
+          - generic [ref=e93]:
+            - generic [ref=e94]: Bread Pakoda
+            - generic [ref=e95]: ✦
+      - generic [ref=e96]: Hot, Crispy, Spicy, Fresh, Desi, Iconic, Vadodara, Bread Pakoda
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]: Why Bread Pakodawala
+        - heading "Not just a snack. It’s a craving." [level=2] [ref=e101]: Not just a snack.It’s a craving.
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - generic [ref=e105]: "01"
+          - heading "Crispy" [level=3] [ref=e106]
+          - paragraph [ref=e107]: Golden, crunchy exterior — fried to order, never sitting around.
+        - generic [ref=e109]:
+          - generic [ref=e110]: "02"
+          - heading "Hot" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Freshly prepared through the day, from 8 in the morning till 10 at night.
+        - generic [ref=e114]:
+          - generic [ref=e115]: "03"
+          - heading "Desi" [level=3] [ref=e116]
+          - paragraph [ref=e117]: Authentic Indian street-food taste, the way Chokhandi has always known it.
+        - generic [ref=e119]:
+          - generic [ref=e120]: "04"
+          - heading "Iconic" [level=3] [ref=e121]
+          - paragraph [ref=e122]: A Vadodara food legacy, serving happiness since 1987.
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - heading "The crunch you crave." [level=2] [ref=e126]: The crunchyou crave.
+        - paragraph [ref=e127]: Golden on the outside, soft and spiced inside — fried to order and handed over still steaming. One is never enough.
+        - link "Order Now" [ref=e129] [cursor=pointer]:
+          - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu.
+      - generic [ref=e131]:
+        - generic [ref=e133]:
+          - img "Bread Pakoda" [ref=e134]
+          - img "Batata Na Bhajiya" [ref=e135]
+          - img "Paneer Bhurji Pakoda" [ref=e136]
+          - img "Cheese Burst Pakoda" [ref=e137]
+          - img "Peri Peri Pakoda" [ref=e138]
+        - generic [ref=e139]:
+          - paragraph [ref=e140]: Bread Pakoda
+          - paragraph [ref=e141]: Signature
+        - tablist "Food showcase" [ref=e142]:
+          - tab "Show Bread Pakoda" [selected] [ref=e143]
+          - tab "Show Batata Na Bhajiya" [ref=e144]
+          - tab "Show Paneer Bhurji Pakoda" [ref=e145]
+          - tab "Show Cheese Burst Pakoda" [ref=e146]
+          - tab "Show Peri Peri Pakoda" [ref=e147]
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - generic [ref=e151]: How it's made
+        - heading "Made hot. Served crispy." [level=2] [ref=e153]: Made hot.Served crispy.
+        - paragraph [ref=e154]: Nothing sits around. Every pakoda is built, battered and fried the moment it's ordered.
+      - list [ref=e155]:
+        - listitem [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]: "01"
+            - heading "Bread" [level=3] [ref=e159]
+            - paragraph [ref=e160]: Fresh slices, cut and kept ready through the day.
+        - listitem [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]: "02"
+            - heading "Stuffing" [level=3] [ref=e164]
+            - paragraph [ref=e165]: Spiced potato masala, packed in generously.
+        - listitem [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e168]: "03"
+            - heading "Besan Batter" [level=3] [ref=e169]
+            - paragraph [ref=e170]: A smooth gram-flour coat, seasoned the Chokhandi way.
+        - listitem [ref=e171]:
+          - generic [ref=e172]:
+            - generic [ref=e173]: "04"
+            - heading "Hot Oil" [level=3] [ref=e174]
+            - paragraph [ref=e175]: Straight into the kadhai, bubbling and golden.
+        - listitem [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]: "05"
+            - heading "Golden Crunch" [level=3] [ref=e179]
+            - paragraph [ref=e180]: Out hot, on the plate, chutney on the side.
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - heading "Hear that crunch?" [level=2] [ref=e184]
+        - paragraph [ref=e185]: Crispy outside. Delicious inside. That first bite is the whole reason Vadodara keeps coming back to Chokhandi.
+      - generic:
+        - img "Extreme close-up of crispy golden bread pakoda"
+    - generic [ref=e187]:
+      - generic [ref=e188]:
+        - generic [ref=e189]: Since 1987
+        - heading "A craving with a story." [level=2] [ref=e191]
+        - paragraph [ref=e192]: Jalaram Nasta House holds a cherished place in the hearts of food enthusiasts, renowned for its legendary Bread Pakoda in Chokhandi, Vadodara.
+      - generic [ref=e194]:
+        - generic [ref=e195]: Since 1987
+        - paragraph [ref=e196]: Our founder ventured to Vadodara and introduced the innovative concept of making pakodas using bread — the beginning of the bread pakodawala legacy.
+        - link "Read Our Story" [ref=e198] [cursor=pointer]:
+          - /url: /our-story
+    - generic [ref=e199]:
+      - generic [ref=e201]:
+        - heading "Born in Vadodara." [level=2] [ref=e202]
+        - paragraph [ref=e203]: Chokhandi ka famous bread pakodawala — Jalaram Nasta House, Chokhandi, Vadodara, Gujarat.
+      - generic:
+        - img "Illustrated Vadodara skyline"
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - generic [ref=e207]: Find Us
+        - heading "Vadodara first. More cities loading." [level=2] [ref=e209]: Vadodara first.More cities loading.
+        - paragraph [ref=e210]: "Jalaram Nasta House, Chokhandi, Vadodara, Gujarat. Open Everyday: 8:00 am – 10:00 pm — fried fresh, never pre-made."
+        - generic [ref=e211]:
+          - generic [ref=e212]: Vadodara — Open
+          - generic [ref=e213]: Surat — Coming Soon
+          - generic [ref=e214]: Ahmedabad — Coming Soon
+        - generic [ref=e215]:
+          - link "See Locations" [ref=e216] [cursor=pointer]:
+            - /url: /locations
+          - link "Get Directions" [ref=e217] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Jalaram+Nasta+House%2C+Chokhandi%2C+Vadodara
+      - generic:
+        - generic:
+          - img "Bread Pakodawala mascot holding a plate of hot bread pakoda"
+    - generic [ref=e219]:
+      - generic:
+        - img "Hot bread pakoda ready to order"
+      - generic [ref=e220]:
+        - heading "Still thinking about it?" [level=2] [ref=e221]
+        - paragraph [ref=e222]: You know you want one.
+        - generic [ref=e223]:
+          - link "Order Now" [ref=e224] [cursor=pointer]:
+            - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu.
+          - link "WhatsApp" [ref=e225] [cursor=pointer]:
+            - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu.
+      - img "Yummy"
+  - contentinfo [ref=e226]:
+    - generic [ref=e227]:
+      - generic [ref=e228]:
+        - img "Bread Pakodawala — Jay Jalaram Nasta House" [ref=e229]
+        - paragraph [ref=e230]: Jay Jalaram Nasta House. Chokhandi ka famous bread pakodawala. Serving Vadodara since 1987.
+        - generic [ref=e231]:
+          - link "Instagram" [ref=e232] [cursor=pointer]:
+            - /url: https://www.instagram.com/bread_pakodawala?igsi=bXF6cHIwZGhqYW91
+          - link "Facebook" [ref=e236] [cursor=pointer]:
+            - /url: https://www.facebook.com/share/19SuTb6MKu/
+      - navigation "Footer" [ref=e239]:
+        - heading "Explore" [level=2] [ref=e240]
+        - list [ref=e241]:
+          - listitem [ref=e242]:
+            - link "Home" [ref=e243] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e244]:
+            - link "Menu" [ref=e245] [cursor=pointer]:
+              - /url: /menu
+          - listitem [ref=e246]:
+            - link "Our Story" [ref=e247] [cursor=pointer]:
+              - /url: /our-story
+          - listitem [ref=e248]:
+            - link "Locations" [ref=e249] [cursor=pointer]:
+              - /url: /locations
+          - listitem [ref=e250]:
+            - link "Franchise" [ref=e251] [cursor=pointer]:
+              - /url: /franchise
+          - listitem [ref=e252]:
+            - link "Contact" [ref=e253] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e254]:
+        - heading "Come Over" [level=2] [ref=e255]
+        - list [ref=e256]:
+          - listitem [ref=e257]:
+            - generic [ref=e261]: Jalaram Nasta House, Chokhandi, Vadodara, Gujarat
+          - listitem [ref=e262]:
+            - link "+91 81281 93143" [ref=e265] [cursor=pointer]:
+              - /url: tel:+918128193143
+          - listitem [ref=e266]:
+            - generic [ref=e270]: "Everyday: 8:00 am – 10:00 pm"
+        - link "Order Now" [ref=e271] [cursor=pointer]:
+          - /url: https://wa.me/918128193143?text=Hello%20Bread%20Pakodawala%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu.
+    - generic [ref=e272]: © 2026 Jay Jalaram Nasta House. All rights reserved.
