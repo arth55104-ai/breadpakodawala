@@ -24,7 +24,7 @@ export const Route = createFileRoute("/locations")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "https://pakoda-paradise.lovable.app/locations" }],
+    links: [{ rel: "canonical", href: "https://breadpakodawala.com/locations" }],
   }),
   component: LocationsPage,
 });

@@ -22,7 +22,7 @@ export const Route = createFileRoute("/our-story")({
       { property: "og:type", content: "article" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "https://pakoda-paradise.lovable.app/our-story" }],
+    links: [{ rel: "canonical", href: "https://breadpakodawala.com/our-story" }],
   }),
   component: StoryPage,
 });

@@ -25,7 +25,7 @@ export const Route = createFileRoute("/menu")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "/menu" }],
+    links: [{ rel: "canonical", href: "https://breadpakodawala.com/menu" }],
   }),
   component: MenuPage,
 });

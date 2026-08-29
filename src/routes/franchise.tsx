@@ -28,7 +28,7 @@ export const Route = createFileRoute("/franchise")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "https://pakoda-paradise.lovable.app/franchise" }],
+    links: [{ rel: "canonical", href: "https://breadpakodawala.com/franchise" }],
   }),
   component: FranchisePage,
 });
