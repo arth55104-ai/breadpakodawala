@@ -28,17 +28,17 @@ export function CitySelector() {
           From Vadodara to more cities — the craving is growing.
         </p>
 
-        <div className="mt-10 -mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-6 px-6 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 sm:scroll-px-0 lg:grid-cols-3">
-          {cities.map((c, i) => {
+        <div className="mt-10 -mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-6 px-6 pt-3 pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 sm:pt-0 sm:pb-0 sm:scroll-px-0 lg:grid-cols-3">
+          {cities.map((c) => {
             const available = c.status === "available";
             return (
-              <Reveal key={c.id} delay={i * 80} className="w-[min(22rem,calc(100vw-64px))] shrink-0 snap-start sm:w-auto">
+              <div key={c.id} className="w-[min(22rem,calc(100vw-64px))] shrink-0 snap-start sm:w-auto">
                 <button
                   type="button"
                   disabled={!available}
                   aria-pressed={available}
                   className={cn(
-                    "group relative flex h-full w-full cursor-pointer flex-col items-start gap-3 overflow-hidden rounded-3xl border-2 p-7 text-left transition-all duration-300 hover:-translate-y-1.5 focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none md:p-9",
+                    "group relative flex h-full w-full cursor-pointer flex-col items-start gap-3 overflow-hidden rounded-3xl border-2 px-7 pb-7 pt-9 text-left transition-colors duration-300 focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none md:px-9 md:pb-9 md:pt-11",
                     available
                       ? "border-brand-red bg-charcoal text-on-dark shadow-lift"
                       : "cursor-not-allowed border-charcoal/15 bg-card opacity-70 grayscale-[0.2]",
@@ -62,7 +62,7 @@ export function CitySelector() {
                     <ArrowRight className="size-4" aria-hidden="true" />
                   </span>
                 </button>
-              </Reveal>
+              </div>
             );
           })}
         </div>

@@ -60,28 +60,30 @@ function MenuPage() {
 
       <section className="bg-cream px-4 pb-24 md:px-8" aria-label="Menu items">
         <div className="mx-auto max-w-[90rem]">
-          <div
-            className="sticky top-[72px] z-30 -mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-6 bg-cream/95 px-6 py-3 backdrop-blur [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:mx-0 md:flex-wrap md:px-0 md:scroll-px-0 md:gap-3"
-            role="tablist"
-            aria-label="Menu categories"
-          >
-            {menuCategories.map((c) => (
-              <button
-                key={c.id}
-                type="button"
-                role="tab"
-                aria-selected={active === c.id}
-                onClick={() => setActive(c.id)}
-                className={cn(
-                  "shrink-0 snap-start cursor-pointer rounded-full border-2 px-5 py-2.5 font-display text-sm tracking-widest uppercase transition-colors focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none",
-                  active === c.id
-                    ? "border-charcoal bg-charcoal text-on-dark"
-                    : "border-charcoal/25 hover:border-charcoal",
-                )}
-              >
-                {c.label}
-              </button>
-            ))}
+          <div className="sticky top-[72px] z-30 -mx-4 bg-cream px-6 py-3 supports-[backdrop-filter]:bg-cream/95 supports-[backdrop-filter]:backdrop-blur md:top-[84px] md:mx-0 md:px-0 md:py-3">
+            <div
+              className="flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-6 bg-cream backdrop-blur [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:flex-wrap md:gap-3 md:overflow-visible md:scroll-px-0"
+              role="tablist"
+              aria-label="Menu categories"
+            >
+              {menuCategories.map((c) => (
+                <button
+                  key={c.id}
+                  type="button"
+                  role="tab"
+                  aria-selected={active === c.id}
+                  onClick={() => setActive(c.id)}
+                  className={cn(
+                    "shrink-0 snap-start cursor-pointer rounded-full border-2 px-5 py-2.5 font-display text-sm tracking-widest uppercase transition-colors focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none",
+                    active === c.id
+                      ? "border-charcoal bg-charcoal text-on-dark"
+                      : "border-charcoal/25 hover:border-charcoal",
+                  )}
+                >
+                  {c.label}
+                </button>
+              ))}
+            </div>
           </div>
 
           <div key={active} className="anim-rise mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
